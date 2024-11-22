@@ -8,9 +8,8 @@ package poo.pkg1;
  *
  * @author ves8167
  */
-public class A3_rectangle {
-    int x1;
-    int y1;
-    int x2;
-    int y2;
+public class B3_main {
+    public static void main(String[] args) {
+        
+    }
 }

@@ -22,10 +22,11 @@ public class A2_main {
         persona1.apellido = entrada.nextLine();
         System.out.print("Introduzca su edad: ");
         persona1.edad = entrada.nextInt();
+        entrada.nextLine(); //se soluciona con esta linea porque carga automatic el enter anterior
         System.out.println("");
         A2_persona persona2 = new A2_persona();
         System.out.print("Introduzca su DNI: ");
-        persona2.dni = entrada.nextLine();
+        persona2.dni = entrada.nextLine(); //Aqui habria que poner un parse
         System.out.print("Introduzca su nombre: ");
         persona2.nombre = entrada.nextLine();
         System.out.print("Introduzca sus apellidos: ");
