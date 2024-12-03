@@ -21,5 +21,6 @@ public class A4_main {
         a1.precio = 10;
 
         System.out.println(a1.nombre + " - Precio: " + a1.precio + "€ - IVA: " + a1.iva + "% - PVP: " + (a1.precio + (a1.precio * a1.iva / 100)) + "€");
+        System.out.println(a1);
     }
 }

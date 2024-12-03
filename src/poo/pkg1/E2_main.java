@@ -35,7 +35,7 @@ public class E2_main {
         persona2.imprime();
         System.out.println("");
         */
-        
+        //IMPRIME EL toString
         System.out.println(persona1);
         System.out.println(persona2);
         System.out.println(persona3);

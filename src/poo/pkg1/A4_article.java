@@ -13,4 +13,20 @@ public class A4_article {
     double precio;
     int iva;
     int cuantosQuedan;
+    
+    @Override
+    public String toString(){
+    return 
+           "Articulo:"+"\n" 
+            + "Nombre>> " + nombre + "\n"
+            + "Preu>> "+ precio+"\n"
+            + "IVA>> "+iva+"\n"
+            +"Quantitat restant>> " + cuantosQuedan;
+            //"Article{" +
+           //"nom >>'" + nombre + "\'" +
+           //"preu >>'" + precio + "\'" +
+           //"IVA >>'" + iva + "\'" +
+           //"Quantitat restant >>'" + cuantosQuedan + "\'" +
+            //'}';
+    }
 }
